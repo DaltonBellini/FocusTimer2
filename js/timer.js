@@ -1,3 +1,7 @@
+import Sound from "./sound.js"
+
+const sound = Sound()
+
 export default function({ minutesDisplay,secondsDisplay,controls,}){ 
 
     let pauseSetTimeOut
@@ -35,6 +39,7 @@ function pauseApplication(){
             if(minutes == 0 && seconds == 0){ 
                 controls.resetTimer()  
                 stopApplication()
+                sound.kitchenAudio()
                 return
             }
     
