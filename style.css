@@ -82,6 +82,7 @@ button{
         justify-content: center;
         align-items: center;
         gap: 8rem;
+        padding: 5rem;
     }
 }
 
