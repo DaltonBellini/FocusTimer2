@@ -44,6 +44,8 @@ export default function Events({
 
     buttonSub.addEventListener('click',function(){
         timer.remove5Minutes()
+        sound.buttonPress()
+        
     })
 
     buttonFlorestOff.addEventListener('click',function(){
